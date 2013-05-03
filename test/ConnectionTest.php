@@ -41,7 +41,7 @@ class ConnectionTest extends \PHPUnit_Framework_TestCase
         
         $client = new Client( $connection );
         
-        $this->assertEquals( '3.0a12', $client->getSupervisorVersion() );
+        $this->assertEquals( '3.0b1', $client->getSupervisorVersion() );
         $this->assertEquals( array(), $client->getAllProcessInfo() );
     }
     
@@ -58,7 +58,7 @@ class ConnectionTest extends \PHPUnit_Framework_TestCase
         
         $client = new Client( $connection );
         
-        $this->assertEquals( '3.0a12', $client->getSupervisorVersion() );
+        $this->assertEquals( '3.0b1', $client->getSupervisorVersion() );
         $this->assertEquals( array(), $client->getAllProcessInfo() );
     }
     
@@ -77,7 +77,7 @@ class ConnectionTest extends \PHPUnit_Framework_TestCase
         
         $client = new Client( $connection );
         
-        $this->assertEquals( '3.0a12', $client->getSupervisorVersion() );
+        $this->assertEquals( '3.0b1', $client->getSupervisorVersion() );
         $this->assertEquals( array(), $client->getAllProcessInfo() );
     }
 }
